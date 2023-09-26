@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.appContainer{
+    margin: 0 auto;
+    max-width: 1496px;
+    width: 100%;
+}

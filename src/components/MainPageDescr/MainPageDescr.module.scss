@@ -1,0 +1,89 @@
+@mixin button {
+    padding: 32px 52px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--text-main, #E5E8DF);
+    text-align: center;
+    border-radius: 24px;
+}
+
+.mainPageDescr{
+    background-image: url(../../images/bg-image-1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    .descrPlace{
+        border-radius: 8px;
+        border: 1px solid var(--bg-main-gr, #353A36);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: flex;
+        align-items: center;
+        padding-right: 24px;
+        justify-content: right;
+        .descrPlaceText{
+            width: 88%;
+            .descrPlaceTextTitle{
+                color: var(--accent-main, #8EC300);
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+            }
+            .descrPlaceTextBody{
+                color: var(--text-secondary, #737373);
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 20px;
+                span{
+                    a{
+                        text-decoration: none;
+                        color: var(--accent-main, #8EC300);
+                    }
+                }
+            }
+        }
+        .descrPlaceButton{
+            border-radius: 8px;
+            border: 1px solid var(--accent-main, #8EC300);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .MainPageDescrTitle{
+        color: var(--text-main, #E5E8DF);
+        text-align: center;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        margin-top: 42px;
+        width: 100%;
+    }
+    .MainPageDescrButton{
+        margin-top: 42px;
+        display: flex;
+        justify-content: center;
+        .GetStartedButton{
+            @include button;
+            background: var(--accent-main, #8EC300);
+            width: 22%;
+            margin-left: 10px;
+
+        }
+        .LearnMoreButton{
+            @include button;
+            border: 1px solid var(--accent-main, #8EC300);
+            background: rgba(33, 30, 30, 0.01);
+            backdrop-filter: blur(10px);
+            width: 22%;
+            margin-left: 10px;
+        }
+    }
+}

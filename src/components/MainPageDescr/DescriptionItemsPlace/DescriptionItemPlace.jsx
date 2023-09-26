@@ -1,0 +1,37 @@
+import React from 'react'
+import classes from './DescriptionItemsPlace.module.scss'
+import zeropic from '../../../images/zeropic.png'
+import lilpercent from '../../../images/littlepercent.png'
+
+const DescriptionItemPlace = () => {
+  return (
+    <div className={classes.DescriptionItemPlace}>
+      <div className={classes.DescriptionItem}>
+        <div className={classes.DescriptionItemPercent}>
+            <img src={zeropic}/>
+        </div>
+        <div className={classes.DescriptionItemTitle}>Management fees</div>
+      </div>
+      <div className={classes.DescriptionItem}>
+        <div className={classes.DescriptionItemPercent}>
+            <img src={zeropic}/>
+        </div>
+        <div className={classes.DescriptionItemTitle}>Withdrawal fees</div>
+      </div>
+      <div className={classes.DescriptionItem}>
+        <div className={classes.DescriptionItemPercent}>
+            <img src={zeropic}/>
+        </div>
+        <div className={classes.DescriptionItemTitle}>Performance fees</div>
+      </div>
+      <div className={classes.DescriptionItem}>
+        <div className={classes.DescriptionItemPercent}>
+            <img src={lilpercent}/>
+        </div>
+        <div className={classes.DescriptionItemTitle}>Single time deposit fee</div>
+      </div>
+    </div>
+  )
+}
+
+export default DescriptionItemPlace

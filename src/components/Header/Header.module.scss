@@ -1,0 +1,39 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 63px;
+    padding-bottom: 24px;
+    .menuLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            padding: 16px 24px;
+            margin-right: 8px;
+            .menuLinksItem{
+                list-style: none;
+                cursor: pointer;
+                color: var(--text-main, #E5E8DF);
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .headerRight{
+        display: flex;
+        align-items: center;
+        .dropDown{
+            display: flex;
+            align-items: center;
+            .dropArrow{
+                margin-left: 16px;
+                margin-top: 6px;
+            }
+        }
+        .userStatus{
+            padding: 16px 24px;
+            color: var(--accent-yellow, #E8CB3C);
+        }
+    }
+}

@@ -1,0 +1,170 @@
+.TableBlock{
+    margin-top: 120px;
+    .TableBlockTitle{
+        color: var(--text-main, #E5E8DF);
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+        span{
+            color: var(--accent-main, #8EC300);
+        }
+    }
+    .TableBlockDescr{
+        color: var(--text-secondary, #737373);
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 28px;
+    }
+    .TableHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 52px;
+        .inputBlock{
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            .inputBlockTitle{
+                color: var(--text-secondary, #737373);
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                text-align: left;
+                margin-bottom: 8px;
+            }
+            .depositInput{
+                background-color: var(--background);
+                border: 1px solid var(--text-secondary, #737373);
+                border-radius: 16px;
+                color: #8EC300;
+                display: block;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 24px;
+                max-width: 660px;
+                padding: 22px;
+                text-align: center;
+                transition: all .1s ease-in-out;
+                width: 100%;
+                &::placeholder{
+                    color: #8EC300;
+                }
+            }
+        }
+        .TableHeaderButtons{
+            width: 38%;
+            .inputBlockTitle{
+                color: var(--text-secondary, #737373);
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                text-align: left;
+                margin-bottom: 8px;
+                display: flex;
+            }
+            .TableheaderButtonsPlace{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .percentDropDown{
+            margin-top: 27px;
+            select{
+                border-radius: 16px;
+                border: 1px solid var(--text-secondary, #737373);
+                display: flex;
+                width: 185px;
+                padding: 24px 24px 24px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background: #211E1E;
+                color: var(--text-main, #E5E8DF);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                appearance: none;
+                background-image: url(../../images/arrow-down.png);
+                background-repeat: no-repeat;
+                background-position: right 1rem center;
+                background-size: 1em;
+                height: 72px;
+            }
+        }
+    }
+    .TableHeaderRow{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 40px;
+        .TableHeaderName{
+            color: var(--text-secondary, #737373);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px; 
+        }
+        .bauApy{
+            color: var(--accent-main, #8EC300);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        .apyPercent{
+            color: var(--text-secondary, #737373);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        .bauFees{
+            color: var(--accent-main, #8EC300);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+            span{
+                color: var(--text-secondary, #737373);
+            }
+        }
+        .feesValue{
+            color: var(--text-secondary, #737373);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+    .TableBody{
+        margin-top: 24px;
+    }
+    .moreVaults{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 44px;
+        padding-bottom: 43px;
+        margin-top: 24px;
+        border-radius: 20px;
+        background: #8DC22D;
+        color: #FFF;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+    }
+}
