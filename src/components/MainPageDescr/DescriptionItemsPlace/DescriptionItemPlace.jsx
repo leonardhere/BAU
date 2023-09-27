@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './DescriptionItemsPlace.module.scss'
-import zeropic from '../../../images/zeropic.png'
-import lilpercent from '../../../images/littlepercent.png'
+import zeropic from '../../../images/zeropic.svg'
+import lilpercent from '../../../images/littlepercent.svg'
 
 const DescriptionItemPlace = () => {
   return (

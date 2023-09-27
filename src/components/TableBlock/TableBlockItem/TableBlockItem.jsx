@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './TableBlock.module.scss'
-import coniPic from '../../../images/logo-coin.png'
+import coniPic from '../../../images/logo-coin.svg'
 
 const TableBlockItem = () => {
   return (

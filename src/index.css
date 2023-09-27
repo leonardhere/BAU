@@ -8,6 +8,8 @@
 body {
   background-color: #211E1E;
   font-family: Unbounded;
+  font-style: normal;
+  font-weight: 400;
 }
 
 code {

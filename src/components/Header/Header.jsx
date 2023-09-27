@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react'
 import classes from './Header.module.scss'
-import headerLogo from '../../images/Logo.png'
-import docsarrow from '../../images/menu-arrow.png'
-import eth from '../../images/eth.png'
-import arrowDown from '../../images/arrow-down.png'
+import headerLogo from '../../images/Logo.svg'
+import docsarrow from '../../images/menu-arrow.svg'
+import eth from '../../images/eth.svg'
+import arrowDown from '../../images/arrow-down.svg'
 import {Link} from 'react-router-dom'
 import './DropDownStyles.css'
 import { useClickOutside } from '../../hooks/useClickOutSide'
@@ -33,7 +33,7 @@ const Header = () => {
             <div className={classes.dropDown}>
                 <div className='menu-button' onClick={() => setOpenMenu(!openMenu)}>
                     <img src={eth} alt="walletName" />
-                    <a className={classes.dropArrow}>
+                    <a className="dropArrow">
                         <img src={arrowDown} alt="arrow" />
                     </a>
                 </div>

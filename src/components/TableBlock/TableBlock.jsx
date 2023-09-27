@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './TableBlock.module.scss'
 import Button from '../../UI/Button/Button'
 import TableBlockItem from './TableBlockItem/TableBlockItem'
-import arrowButton from '../../images/menu-arrow.png'
+import arrowButton from '../../images/menu-arrow.svg'
 
 function TableBlock() {
   return (

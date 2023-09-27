@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Footer.module.scss'
-import headerLogo from '../../images/Logo.png'
+import headerLogo from '../../images/Logo.svg'
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
