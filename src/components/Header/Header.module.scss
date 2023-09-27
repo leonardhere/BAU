@@ -18,6 +18,10 @@
                 color: var(--text-main, #E5E8DF);
                 display: flex;
                 align-items: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
             }
         }
     }
@@ -38,6 +42,10 @@
         .userStatus{
             padding: 16px 24px;
             color: var(--accent-yellow, #E8CB3C);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
         }
     }
 }
