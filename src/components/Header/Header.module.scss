@@ -11,6 +11,7 @@
         a{
             padding: 16px 24px;
             margin-right: 8px;
+            text-decoration: none;
             .menuLinksItem{
                 list-style: none;
                 cursor: pointer;
@@ -26,9 +27,12 @@
         .dropDown{
             display: flex;
             align-items: center;
-            .dropArrow{
-                margin-left: 16px;
-                margin-top: 6px;
+            .DropDownButton{
+                .dropArrow{
+                    margin-left: 16px;
+                    margin-top: 6px;
+                    padding-top: 5px;
+                }
             }
         }
         .userStatus{

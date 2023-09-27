@@ -19,10 +19,12 @@ and using the  inteface to interface to interact wirh the protocol. <span><a hre
         </a>
       </div>
       <DescriptionItemPlace/>
-      <div className={classes.MainPageDescrTitle}>Low-cost yield aggregator. Lower commissions, higher <br></br> profits. Zap from any token.</div>
-      <div className={classes.MainPageDescrButton}>
-        <button className={classes.GetStartedButton}>Get started</button>
-        <button className={classes.LearnMoreButton}>Learn More</button>
+      <div className={classes.DescrPlaceBottom}>
+        <div className={classes.MainPageDescrTitle}>Low-cost yield aggregator. Lower commissions, higher <br></br> profits. Zap from any token.</div>
+        <div className={classes.MainPageDescrButton}>
+          <button className={classes.GetStartedButton}>Get started</button>
+          <button className={classes.LearnMoreButton}>Learn More</button>
+        </div>
       </div>
     </div>
   )

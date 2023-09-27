@@ -1,0 +1,17 @@
+.switch {
+    height: 25px;
+    width: 25px;
+    background-color: #8DC22D;
+    border-radius: 999px;
+    border-color: #8DC22D;
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    transition: ease-in 400ms;
+}
+.slide {
+    transition: ease-in 400ms;
+    position: absolute;
+    left: 0%;
+    background-color: #E5E8DF;
+}

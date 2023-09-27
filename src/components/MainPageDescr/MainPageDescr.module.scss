@@ -12,7 +12,7 @@
 .mainPageDescr{
     background-image: url(../../images/bg-image-1.png);
     background-repeat: no-repeat;
-    background-position: 0% 100%;
+    background-position: 0% 50%;
     .descrPlace{
         border-radius: 8px;
         border: 1px solid var(--bg-main-gr, #353A36);
@@ -56,34 +56,41 @@
             justify-content: center;
         }
     }
-    .MainPageDescrTitle{
-        color: var(--text-main, #E5E8DF);
-        text-align: center;
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 52px;
-        margin-top: 42px;
-        width: 100%;
-    }
-    .MainPageDescrButton{
-        margin-top: 42px;
-        display: flex;
-        justify-content: center;
-        .GetStartedButton{
-            @include button;
-            background: var(--accent-main, #8EC300);
-            width: 22%;
-            margin-left: 10px;
-
+    .DescrPlaceBottom{
+        background-image: url(../../images/bg-image-2.png);
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        .MainPageDescrTitle{
+            color: var(--text-main, #E5E8DF);
+            text-align: center;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 52px;
+            margin-top: 42px;
+            width: 100%;
         }
-        .LearnMoreButton{
-            @include button;
-            border: 1px solid var(--accent-main, #8EC300);
-            background: rgba(33, 30, 30, 0.01);
-            backdrop-filter: blur(10px);
-            width: 22%;
-            margin-left: 10px;
+        .MainPageDescrButton{
+            margin-top: 42px;
+            display: flex;
+            justify-content: center;
+            .GetStartedButton{
+                @include button;
+                background: var(--accent-main, #8EC300);
+                width: 22%;
+                margin-left: 10px;
+                cursor: pointer;
+    
+            }
+            .LearnMoreButton{
+                @include button;
+                border: 1px solid var(--accent-main, #8EC300);
+                background: rgba(33, 30, 30, 0.01);
+                backdrop-filter: blur(10px);
+                width: 22%;
+                margin-left: 10px;
+                cursor: pointer;
+            }
         }
     }
 }
