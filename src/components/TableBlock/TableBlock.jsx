@@ -1,20 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import classes from './TableBlock.module.scss'
-import Button from '../../UI/Button/Button'
+import './Button.css'
 import TableBlockItem from './TableBlockItem/TableBlockItem'
 import arrowButton from '../../images/menu-arrow.svg'
 
-const buttonActive = {
-    border: '1px solid #8EC300'
-}
 
 function TableBlock() {
 
-    const [active, setActive] = useState('')
-
-    const setActiveClass = () => {
-        setActive(buttonActive)
-    }
   return (
     <div className={classes.TableBlock}>
         <div className={classes.TableBlockTitle}>Other portocols charge you <br /> <span>5-30% </span> performance fee </div>
@@ -27,9 +19,15 @@ function TableBlock() {
             <div className={classes.TableHeaderButtons}>
                 <label className={classes.inputBlockTitle}>Years</label>
                 <div className={classes.TableheaderButtonsPlace}>
-                    <Button text='1 year'/>
-                    <Button text='5 year'/>
-                    <Button text='10 year'/>
+                    <button className='Button Button-active'>
+                        1 year
+                    </button>
+                    <button className='Button'>
+                        5 year
+                    </button>
+                    <button className='Button'>
+                        10 year
+                    </button>
                 </div>
             </div>
             <div className={classes.percentDropDown}>

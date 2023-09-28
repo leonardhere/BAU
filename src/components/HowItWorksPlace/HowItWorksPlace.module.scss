@@ -1,4 +1,5 @@
 .HowItWorksPlace{
+    background: url(../../images/figure1.svg) no-repeat 0% 22%, url(../../images/figure2.svg) no-repeat 97% 24%, url(../../images/figure4.svg) no-repeat 0% 99%, url(../../images/figure5.svg) no-repeat 97% 98%;;
     .HowItWorksTitle{
         color: var(--text-main, #E5E8DF);
         padding-top: 234px;
@@ -14,5 +15,6 @@
     .HowItWorksPlaceItems{
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 105px;
     }
 }

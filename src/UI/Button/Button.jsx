@@ -7,7 +7,7 @@ const buttonActive = {
 
 const Button = ({text}) => {
   return (
-    <button className={classes.Button} sty>
+    <button className={classes.Button}>
         {text}
     </button>
   )

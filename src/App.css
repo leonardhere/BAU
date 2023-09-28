@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url(./images/bg-image-1.svg) no-repeat 0% 0%, url(./images/bg-image-2.svg) no-repeat 100% 10%;
+  background: url(./images/bg-image-1.svg) no-repeat 0% 0%, url(./images/bg-image-2.svg) no-repeat 100% 10%, url(./images/figure3.svg) no-repeat 6% 72%, url(./images/figure6.svg) no-repeat 90% 83%;;
   /* background-repeat: no-repeat;
   background-position: 0% 0%; */
 }
