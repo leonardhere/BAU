@@ -10,9 +10,9 @@
 }
 
 .mainPageDescr{
-    background-image: url(../../images/bg-image-1.svg);
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
+    // background-image: url(../../images/bg-image-1.svg);
+    // background-repeat: no-repeat;
+    // background-position: 0% 50%;
     .descrPlace{
         border-radius: 8px;
         border: 1px solid var(--bg-main-gr, #353A36);
@@ -24,6 +24,8 @@
         justify-content: right;
         .descrPlaceText{
             width: 88%;
+            padding-left: 23%;
+            padding-right: 18%;
             .descrPlaceTextTitle{
                 color: var(--accent-main, #8EC300);
                 text-align: center;
@@ -57,9 +59,6 @@
         }
     }
     .DescrPlaceBottom{
-        background-image: url(../../images/bg-image-2.svg);
-        background-repeat: no-repeat;
-        background-position: 100% 50%;
         .MainPageDescrTitle{
             color: var(--text-main, #E5E8DF);
             text-align: center;
@@ -76,11 +75,18 @@
             justify-content: center;
             .GetStartedButton{
                 @include button;
-                background: var(--accent-main, #8EC300);
                 width: 22%;
                 margin-left: 10px;
                 cursor: pointer;
                 font-family: Unbounded;
+                border: none;
+                font-weight: 300;
+                background: var(--accent-main, #8EC300);
+                cursor: pointer;
+                transition: all 0.3s;
+                &:hover {
+                    background: var(--buttons-hover, #6DC300);
+                }
     
             }
             .LearnMoreButton{
@@ -92,6 +98,12 @@
                 margin-left: 10px;
                 cursor: pointer;
                 font-family: Unbounded;
+                transition: all 0.3s;
+                &:hover{
+                    border: 1px solid var(--buttons-hover, #6DC300);
+                    background: rgba(255, 255, 255, 0.04);
+                    backdrop-filter: blur(10px);
+                }
             }
         }
     }

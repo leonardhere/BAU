@@ -13,7 +13,7 @@ const Footer = () => {
         </Link>
         <a href="#">Audit</a>
       </div>
-      <div className={classes.FooterEmail}>hi@bau.finance</div>
+      <a href="mailto:hi@bau.finance" className={classes.FooterEmail}>hi@bau.finance</a>
       <nav className={classes.FooterLinks}>
         <a href="#">Twitter</a>
         <a href="#">Github</a>

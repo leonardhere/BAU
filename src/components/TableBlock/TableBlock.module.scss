@@ -75,10 +75,24 @@
             .TableheaderButtonsPlace{
                 display: flex;
                 justify-content: space-between;
+                .active{
+                    border: 1px solid var(--accent-main, #8EC300);
+                }
+            }
+            .active{
+                border: 1px solid var(--accent-main, #8EC300);
             }
         }
         .percentDropDown{
-            margin-top: 27px;
+            .percentDropDownTitle{
+                text-align: left;
+                margin-bottom: 8px;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                color: var(--text-secondary, #737373);
+            }
             select{
                 border-radius: 16px;
                 border: 1px solid var(--text-secondary, #737373);
@@ -99,7 +113,7 @@
                 background-repeat: no-repeat;
                 background-position: right 1rem center;
                 background-size: 1em;
-                height: 72px;
+                height: 75px;
                 font-family: Unbounded;
             }
         }
@@ -160,14 +174,23 @@
         padding-bottom: 43px;
         margin-top: 24px;
         border-radius: 20px;
-        background: #8DC22D;
+        background: var(--accent-main, #8EC300);
         color: #FFF;
         text-align: center;
         text-decoration: none;
         font-size: 24px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: normal;
         cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            background: var(--buttons-hover, #6DC300);
+            cursor: pointer;
+        }
+        img{
+            margin-left: 26px;
+            padding-top: 5px;
+        }
     }
 }

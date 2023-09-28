@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classes from './TableBlock.module.scss'
 import Button from '../../UI/Button/Button'
 import TableBlockItem from './TableBlockItem/TableBlockItem'
 import arrowButton from '../../images/menu-arrow.svg'
 
+const buttonActive = {
+    border: '1px solid #8EC300'
+}
+
 function TableBlock() {
+
+    const [active, setActive] = useState('')
+
+    const setActiveClass = () => {
+        setActive(buttonActive)
+    }
   return (
     <div className={classes.TableBlock}>
         <div className={classes.TableBlockTitle}>Other portocols charge you <br /> <span>5-30% </span> performance fee </div>
@@ -23,6 +33,7 @@ function TableBlock() {
                 </div>
             </div>
             <div className={classes.percentDropDown}>
+                <div className={classes.percentDropDownTitle}>Commission</div>
                 <select name="" id="">
                     <option value="">5%</option>
                     <option value="">10%</option>
@@ -35,7 +46,7 @@ function TableBlock() {
             <div className={classes.TableHeaderName}>Name</div>
             <div className={classes.bauApy}>BAU APY</div>
             <div className={classes.apyPercent}>APY 5% fee</div>
-            <div className={classes.bauFees}>BAU<span>FEES</span></div>
+            <div className={classes.bauFees}>BAU<span>&nbsp;FEES</span></div>
             <div className={classes.feesValue}>Fees = 5%</div>
         </div>
         <div className={classes.TableBody}>

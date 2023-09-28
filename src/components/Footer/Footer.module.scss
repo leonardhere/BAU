@@ -30,6 +30,7 @@
         font-weight: 300;
         line-height: 32px;
         margin-top: 25px;
+        text-decoration: none;
     }
     .FooterLinks{
         display: flex;
@@ -42,6 +43,7 @@
             font-weight: 400;
             line-height: 52px;
             text-decoration: none;
+            transition: all 0.3s;
             &:hover{
                 -webkit-background-clip: text;
                 background-clip: text;

@@ -11,5 +11,8 @@
     background: transparent;
     width: 175px;
     font-family: Unbounded;
-
+    cursor: pointer;
+    &:hover{
+        transform: scale(.98);
+    }
 }
