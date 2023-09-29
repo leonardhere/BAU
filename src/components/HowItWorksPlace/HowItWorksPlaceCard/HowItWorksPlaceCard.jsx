@@ -18,16 +18,8 @@ const HowItWorksPlaceCard = () => {
       setTheme(!theme);
     };
   return (
-    <div onMouseEnter={handleClick} onMouseLeave={handleClick} style={{
+    <div onMouseEnter={handleClick} onMouseLeave={handleClick} className={classes.HowItWorksPlaceCard} style={{
         backgroundColor: theme ? "#272726" : "#E5E8DF",
-        width: "44%",
-        overflow: "hidden",
-        textAlign: 'left',
-        padding: '32px 32px 42px',
-        borderRadius: '16px',
-        marginRight: '16px',
-        marginBottom: '16px',
-        cursor: 'pointer',
     }}>
         <div className={classes.toggleSlide}>
             <div className={`switch ${theme ? "slide " : ""}`}></div>

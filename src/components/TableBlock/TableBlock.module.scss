@@ -208,3 +208,43 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .TableBlock{
+        .TableBlockTitle{
+            font-size: 31px;
+        }
+        .TableHeader{
+            margin-left: 20px;
+            margin-right: 20px;
+            .inputBlock{
+                width: 33%;
+            }
+            .TableHeaderButtons{
+                width: 40%;
+                .TableheaderButtonsPlace{
+                    button{
+                        padding: 24px 10px;
+                        font-size: 14px;
+                        width: 135px;
+                    }
+                }
+            }
+        }
+        .TableHeaderRow{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .TableBody{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .moreVaults{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 .HowItWorksPlace{
-    background: url(../../images/figure1.svg) no-repeat 0% 22%, url(../../images/figure2.svg) no-repeat 97% 24%, url(../../images/figure4.svg) no-repeat 0% 99%, url(../../images/figure5.svg) no-repeat 97% 98%;;
+    background: url(../../images/figure1.svg) no-repeat 0% 22%, url(../../images/figure2.svg) no-repeat 97% 24%, url(../../images/figure4.svg) no-repeat 0% 99%, url(../../images/figure5.svg) no-repeat 97% 98%;
     .HowItWorksTitle{
         color: var(--text-main, #E5E8DF);
         padding-top: 234px;
@@ -16,5 +16,22 @@
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 105px;
+        justify-content: center;
+        .HowItWorksPlaceCard{
+            width: 44%;
+            overflow: hidden;
+            text-align: left;
+            padding: 32px 32px 42px;
+            border-radius: 16px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .HowItWorksPlace{
+        background: url(../../images/figure1.svg) no-repeat 3% 22%, url(../../images/figure2.svg) no-repeat 95% 24%, url(../../images/figure4.svg) no-repeat 3% 99%, url(../../images/figure5.svg) no-repeat 97% 98%;
     }
 }

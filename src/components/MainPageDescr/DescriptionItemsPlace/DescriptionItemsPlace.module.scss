@@ -20,3 +20,18 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .DescriptionItemPlace {
+        margin-left: 40px;
+        margin-right: 40px;
+        .DescriptionItem{
+            .DescriptionItemTitle{
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

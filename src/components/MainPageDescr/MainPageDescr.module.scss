@@ -109,3 +109,26 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .mainPageDescr{
+        .DescrPlaceBottom{
+            .MainPageDescrTitle{
+                font-size: 31px;
+            }
+            .MainPageDescrButton{
+                .GetStartedButton{
+                    padding: 32px 32px;
+                }
+                .LearnMoreButton{
+                    padding: 32px 32px;
+                }
+            }
+        }
+        .descrPlace{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+    }
+}
