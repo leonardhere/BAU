@@ -16,12 +16,12 @@ const Header = () => {
     })
   return (
     <header className={classes.Header}>
-        <Link>
+        <Link to='/'>
             <img src={headerLogo} alt="logo" to={'/'}/>
         </Link>
         <ul className={classes.menuLinks}>
-            <a href="#"><li className={classes.menuLinksItem}>Vaults</li></a>
-            <a href="#"><li className={classes.menuLinksItem}>Roadmap</li></a>
+            <Link to="/vaults"><li className={classes.menuLinksItem}>Vaults</li></Link>
+            <Link to='#'><li className={classes.menuLinksItem}>Roadmap</li></Link>
             <a href="#">
                 <li className={classes.menuLinksItem}>
                     <div className={classes.manuLinksItemSubName}>Docs</div>

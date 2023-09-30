@@ -1,0 +1,59 @@
+.VaultsTableItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: var(--cards-hover, #31312F);
+    padding: 42px 40px;
+    margin-bottom: 8px;
+    .nameVault{
+        display: flex;
+        align-items: center;
+        .vaultStatus{
+            margin-right: 16px;
+        }
+        .vaultName{
+            color: var(--text-main, #E5E8DF);
+            font-family: Unbounded;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+            margin-left: 16px;
+        }
+    }
+    .APUYalue{
+        color: var(--text-main, #E5E8DF);
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .APYWeek{
+        color: var(--text-main, #E5E8DF);
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        padding-left: 4%;
+    }
+    .DepositedValue{
+        color: var(--text-main, #E5E8DF);
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        padding-left: 9%;
+    }
+    .TVLValue{
+        color: var(--text-main, #E5E8DF);
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}

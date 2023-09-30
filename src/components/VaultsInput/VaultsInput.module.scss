@@ -1,0 +1,55 @@
+.VaultsInput{
+    .VaultsTitle{
+        color: var(--text-main, #E5E8DF);
+        font-family: Unbounded;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    form{
+        input{
+            background-color: #211E1E;;
+            border: 1px solid var(--text-secondary, #737373);
+            border-radius: 8px;
+            color: var(--foreground);
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            padding: 32px 68px;
+            width: 90%;
+            margin-bottom: 16px;
+        }
+    }
+    .ButtonPlace{
+        .AllVaults{
+            border-radius: 8px;
+            background: var(--accent-main, #8EC300);
+            padding: 16px;
+            color: var(--text-main, #E5E8DF);
+            text-align: center;
+            font-family: Unbounded;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px; /* 150% */
+            margin-right: 25px;
+        }
+        .MyVaults{
+            border-radius: 8px;
+            border: 1px solid var(--text-secondary, #737373);
+            color: var(--text-main, #E5E8DF);
+            text-align: center;
+            font-family: Unbounded;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+            padding: 16px;
+            background: #211E1E;
+        }
+    }
+}
