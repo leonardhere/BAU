@@ -1,0 +1,210 @@
+.VaultsInfoPlace{
+    margin-top: 31px;
+    .InfoPlaceLeft{
+        width: 60%;
+        .APYwidget{
+            border-radius: 24px;
+            background: var(--cards-main, #272726) url(../../images/bg-wid.svg) no-repeat 100% 55%;
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .APYwidgetTitle{
+                color: var(--text-main, #E5E8DF);
+                font-family: Unbounded;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 16px;
+            }
+            .APYwidgetBody{
+                display: flex;
+                align-items: center;
+                .APYwidgetBodyItem{
+                    display: flex;
+                    align-items: center;
+                    padding-right: 29px;
+                    margin-left: 29px;
+                    border-right: 2px solid #737373;
+                    .BodyItemTitle{
+                        color: var(--text-secondary, #737373);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 24px;
+                    }
+                    .BodyItemValue{
+                        color: var(--text-main, #E5E8DF);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        margin-left: 12px;
+                    }
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                    &:last-child{
+                        border: none;
+                    }
+                }
+            }
+        }
+        .PositionWidget{
+            margin-top: 16px;
+            border-radius: 24px;
+            background: var(--cards-main, #272726);
+            padding: 40px;
+            .PositionWidgetHeader{
+                display: flex;
+                justify-content: space-between;
+                .PositionWidgetHeaderTitle{
+                    color: var(--text-main, #E5E8DF);
+                    font-family: Unbounded;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+                .countShares{
+                    color: var(--text-main, #E5E8DF);
+                    font-family: Unbounded;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 20px;
+                }
+            }
+            .PositionWidgetBody{
+                margin-top: 16px;
+                .WidgetBodyRow{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .WidgetBodyRowTitle{
+                        color: var(--text-secondary, #737373);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 24px;
+                        width: 245px;
+                    }
+                    .WidgetCoinName{
+                        color: var(--text-secondary, #737373);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: 150px;
+                    }
+                    .WidgetPrice{
+                        color: var(--text-secondary, #737373);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: 150px;
+                    }
+                    .growPercent{
+                        color: var(--text-secondary, #737373);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: 100px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        .widgetBreakDown{
+            margin-top: 16px;
+            border-radius: 24px;
+            background: var(--cards-main, #272726);
+            padding: 40px;
+            .BreackDownTitle{
+                color: var(--text-main, #E5E8DF);
+                font-family: Unbounded;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            .BreackDownBody{
+                margin-top: 16px;
+                .BreackDownRow{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 16px;
+                    .BreackDownRowTitle{
+                        color: var(--text-secondary, #737373);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 24px;
+                        width: 250px;
+                    }
+                    .BreackDownRowPrice{
+                        color: var(--text-main, #E5E8DF);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: 100px;
+                    }
+                    .BreackDownCount{
+                        color: var(--text-main, #E5E8DF);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+        .StrategyWidget{
+            margin-top: 16px;
+            border-radius: 24px;
+            background: var(--cards-main, #272726) url(../../images/Pattern.svg) no-repeat 100% 0;
+            padding: 40px;
+            .StrategyWidgetHeader{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                .WidgetHeaderTitle{
+                    color: var(--text-main, #E5E8DF);
+                    font-family: Unbounded;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                
+                }
+                .StrategyLinks{
+                    a{
+                        color: var(--accent-main, #8EC300);
+                        font-family: Unbounded;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-decoration: none;
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

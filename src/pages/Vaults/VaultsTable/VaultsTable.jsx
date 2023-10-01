@@ -4,6 +4,7 @@ import buttonHeaderTable from '../../../images/buttonHeaderTable.svg'
 import activevaulst from '../../../images/activevaults.svg'
 import logoCoin from '../../../images/logo-coin.svg'
 import VaultsTableItem from './VaultsTableItem/VaultsTableItem'
+import { Link } from 'react-router-dom'
 
 const VaultsTable = () => {
   return (
@@ -41,11 +42,21 @@ const VaultsTable = () => {
             </div>
         </div>
         <div className={classes.VaultsTableItems}>
-            <VaultsTableItem/>
-            <VaultsTableItem/>
-            <VaultsTableItem/>
-            <VaultsTableItem/>
-            <VaultsTableItem/>
+            <Link to='/vaultsinfo'>
+                <VaultsTableItem/>
+            </Link>
+            <Link to='/vaultsinfo'>
+                <VaultsTableItem/>
+            </Link>
+            <Link to='/vaultsinfo'>
+                <VaultsTableItem/>
+            </Link>
+            <Link to='/vaultsinfo'>
+                <VaultsTableItem/>
+            </Link>
+            <Link to='/vaultsinfo'>
+                <VaultsTableItem/>
+            </Link>
         </div>
     </div>
   )
